@@ -1,0 +1,27 @@
+#root {
+	width: 100vw;
+	height: 100vh;
+}
+
+* {
+	font-family: "Ubuntu", sans-serif;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 0.23);
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ffffff;
+	height: 10%;
+}
